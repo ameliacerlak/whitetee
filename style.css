@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #580f21, #30010e, #121212), 
+                url('https://www.transparenttextures.com/patterns/heart-burlap.png'); /* Background with hearts */
+    background-size: cover; /* Ensures the heart pattern covers the entire background */
+    background-position: center;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    color: #1a1a1a; /* Dark color for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.square {
+    width: 80%;  
+    max-width: 700px;
+    height: auto;
+    background: #fff; /* Soft white background */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft, subtle shadow */
+    border-radius: 25px; /* Round corners for a cute touch */
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.square:hover {
+    transform: scale(1.02); /* Slight scale effect for a playful touch */
+}
+
+h2 {
+    font-size: 48px; /* Large and bold */
+    font-weight: 700;
+    color: #580f21; /* Deep Bordeaux for elegance */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555; /* Softer gray color */
+    max-width: 1000px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #580f21;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #800020, #580f21); /* Soft pink gradient */
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px; /* Rounded button for a cuter look */
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #800020, #580f21); /* Bordeaux gradient
+    transform: scale(1.05); /* Slight hover effect for added interaction */
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+audio {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the audio element */
+}
